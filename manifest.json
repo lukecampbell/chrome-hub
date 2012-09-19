@@ -1,0 +1,22 @@
+{
+  "name": "Github",
+  "description": "Interact with Github's command bar via the Chrome omnibox.",
+  "homepage_url": "http://github.com/bluestrike2/chrome-hub",
+  "omnibox": { "keyword" : "hub" },
+  "permissions": [
+    "cookies",
+    "tabs",
+    "https://*.github.com/"
+  ],
+  "version": "0.0.1",
+  "minimum_chrome_version": "9",
+  "manifest_version": 2,
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "16": "ico/16.png",
+    "16": "ico/48.png",
+    "128": "ico/128.png"
+  }
+}
